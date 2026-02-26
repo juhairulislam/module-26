@@ -4,3 +4,11 @@ function fullName(first , last = 'Islam'){
 }
 
 fullName('Juhairul')
+
+
+function add(num1, num2){
+    const plus = num1 + num2 ;
+    console.log(plus)
+}
+
+add(1, 2)
