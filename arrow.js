@@ -1,7 +1,7 @@
 const add = (a, b) => (a+b) ;
-console.log(add(10,20))
+// console.log(add(10,20))
 
-const multiply = (c,d) => (c*d) ;
+const multiply = (c,d) => c*d ;
 console.log(multiply(10,20))
 
 
@@ -16,4 +16,4 @@ const doMath = (e,f) => {
 
 }
 
-console.log(doMath(10,20))
+// console.log(doMath(10,20))
