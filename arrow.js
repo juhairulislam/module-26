@@ -17,3 +17,21 @@ const doMath = (e,f) => {
 }
 
 // console.log(doMath(10,20))
+
+
+// arrow with map function 
+
+let array = [1,2,3,4,5,6,7,8,9,10] ;
+
+let square = array.map(num=> num*num) ;
+
+console.log(square) ;
+
+// array with filter function
+
+let filterEven = array.filter(even => even % 2 === 1)
+
+console.log(filterEven)
+
+
+
